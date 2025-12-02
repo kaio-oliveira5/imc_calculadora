@@ -1,16 +1,94 @@
-# React + Vite
+IMC Calculator – React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma aplicação simples desenvolvida em ReactJS utilizando Vite.
+O objetivo é permitir que o usuário insira altura e peso, calcular o IMC e exibir sua classificação de acordo com a tabela oficial.
 
-Currently, two official plugins are available:
+⚙️ Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ReactJS
 
-## React Compiler
+Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+JavaScript
 
-## Expanding the ESLint configuration
+CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Responsividade (mobile/tablet/desktop)
+
+📌 Funcionalidades
+
+Inserir altura (em metros)
+
+Inserir peso (em kg)
+
+Calcular automaticamente o IMC
+
+Exibir:
+
+Valor do IMC formatado
+
+Classificação:
+
+Abaixo do peso
+
+Peso normal
+
+Sobrepeso
+
+Obesidade Grau I
+
+Obesidade Grau II
+
+Obesidade Grau III
+
+🧮 Fórmula do IMC
+IMC = peso / (altura * altura)
+
+📥 Como instalar e rodar o projeto
+1️⃣ Clone o repositório
+git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
+
+2️⃣ Acesse a pasta
+cd NOME-DO-REPOSITORIO
+
+3️⃣ Instale as dependências
+npm install
+
+4️⃣ Rode o projeto
+npm run dev
+
+
+Agora o projeto estará disponível em:
+
+http://localhost:5173/
+
+📱 Layout Responsivo
+
+O projeto foi estilizado para funcionar perfeitamente em:
+
+Desktop
+
+Tablet
+
+Celulares
+
+A interface centraliza o formulário e adapta o tamanho dos inputs e botões de acordo com o tamanho da tela.
+
+
+🚀 Objetivo do Exercício
+
+Este projeto faz parte de um exercício para prática de:
+
+ReactJS
+
+Componentes
+
+useState
+
+Manipulação de formulários
+
+Cálculo de dados no front-end
+
+Responsividade com CSS
+
+Publicação no GitHub
